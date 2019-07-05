@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08be4b46-ce26-496e-8ebc-e3c068900184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/config/DataBaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/config/MyBatisTransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/eunm/ExceptionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/http/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/intercepter/Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lush/service/BaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -80,11 +63,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lush/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="472">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../GAProject/audio/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -119,24 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lush/exception/BaseException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lush/eunm/ExceptionType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -152,13 +135,13 @@
         <option value="$PROJECT_DIR$/src/main/java/lush/http/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/lush/config/InterceptorConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/eunm/RedisType.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/intercepter/Interceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/exception/BaseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/lush/Application.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -304,6 +287,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="core-base.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lush.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -314,15 +306,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561543135902</updated>
-      <workItem from="1561543137330" duration="21474000" />
+      <workItem from="1561543137330" duration="22008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21474000" />
+    <option name="totallyTimeSpent" value="22008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -398,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lush/exception/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -425,7 +411,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lush/eunm/ExceptionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -482,8 +468,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lush/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="472">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GAProject/audio/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
