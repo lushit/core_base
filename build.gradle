@@ -1,9 +1,12 @@
+group 'com.lush.microservice'
+
 plugins {
     id 'org.springframework.boot' version '2.1.4.RELEASE'
     id 'java'
 }
 
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'lush'
 version = '1.0.0'
