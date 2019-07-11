@@ -3,10 +3,10 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'io.spring.dependency-management'
+
 group 'com.github.lushit'
 version '1.0.0'
-
-apply plugin: 'io.spring.dependency-management'
 
 sourceCompatibility = 1.8
 
