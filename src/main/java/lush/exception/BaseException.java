@@ -1,6 +1,6 @@
 package lush.exception;
 
-import lush.eunm.ExceptionType;
+import lush.enm.ExceptionType;
 import org.springframework.stereotype.Component;
 
 @Component

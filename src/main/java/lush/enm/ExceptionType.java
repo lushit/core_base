@@ -1,4 +1,4 @@
-package lush.eunm;
+package lush.enm;
 
 public enum ExceptionType {
 

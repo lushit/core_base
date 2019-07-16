@@ -5,13 +5,6 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
-buildscript {
-    ext {
-        springBootVersion = '2.0.0.RELEASE'
-        springFoxVersion = '2.7.0'
-    }
-}
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
@@ -28,4 +21,5 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis:2.1.4.RELEASE'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.0'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.0'
+    implementation 'mysql:mysql-connector-java:8.0.16'
 }
