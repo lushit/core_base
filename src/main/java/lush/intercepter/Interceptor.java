@@ -3,8 +3,6 @@ package lush.intercepter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import lush.enm.ExceptionType;
-import lush.exception.BaseException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Component;
@@ -40,7 +38,7 @@ public class Interceptor extends HandlerInterceptorAdapter {
 		if (session.getAttribute("M_SESSION") == null) {
 			log.debug("  Request Session Not Found   ");
 			// 세션이 없습니다.
-			throw new BaseException().setExceptionType(ExceptionType.NOT_FOUND_SESSION);
+			//throw new BaseException().setExceptionType(ExceptionType.NOT_FOUND_SESSION);
 		}
 		
 		return true;
